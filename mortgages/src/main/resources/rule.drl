@@ -1,0 +1,10 @@
+package org.rule
+
+rule 'rule'
+
+when
+  //conditions
+then
+  //actions
+
+end
