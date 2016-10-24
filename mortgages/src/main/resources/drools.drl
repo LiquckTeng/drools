@@ -1,0 +1,10 @@
+package org.drools
+
+rule 'drools'
+
+when
+  //conditions
+then
+  //actions
+
+end
