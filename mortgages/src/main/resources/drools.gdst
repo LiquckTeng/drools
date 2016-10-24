@@ -1,5 +1,6 @@
 <decision-table52>
   <tableName>drools</tableName>
+  <parentName></parentName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>-1</width>
