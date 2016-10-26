@@ -8,16 +8,34 @@
       <fieldData>
         <field-data>
           <name>status</name>
-          <value></value>
+          <value>0</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
       <name>m</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>0</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
+    </execution-trace>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>massage</fieldName>
+          <expected>hello</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[m] field [massage] was [] expected [hello].</explanation>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
+      </fieldValues>
+      <name>m</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-26 12:46:49.920 UTC</lastRunResult>
+  <lastRunResult>2016-10-26 12:55:17.68 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName></packageName>
