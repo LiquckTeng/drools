@@ -1,5 +1,6 @@
 import com.hand.guvnor.Message;
 
+no-loop
 rule "Hello World"
     when
      m : Message( status == 0 )
