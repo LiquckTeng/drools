@@ -5,7 +5,7 @@ import com.hand.guvnor.Message;
 
 rule "Hello World"
     when
-     m : Message( status == Message.HELLO, myMessage : message )
+     m : Message( status == 0, myMessage : message )
     then
      System.out.println( myMessage );
      m.setMessage( "Goodbye cruel world" );
@@ -16,7 +16,7 @@ rule "Hello World"
 
 rule "GoodBye"
     when
-     Message( status == Message.GOODBYE, myMessage : message )
+     Message( status == 1, myMessage : message )
     then
     System.out.println( myMessage );
 
