@@ -11,6 +11,11 @@
           <value>0</value>
           <nature>4</nature>
         </field-data>
+        <field-data>
+          <name>massage</name>
+          <value>0</value>
+          <nature>4</nature>
+        </field-data>
       </fieldData>
       <name>m</name>
       <isModify>false</isModify>
@@ -19,8 +24,20 @@
       <executionTimeResult>0</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>massage</fieldName>
+          <expected>0</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>m</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-26 13:08:23.327 UTC</lastRunResult>
+  <lastRunResult>2016-10-26 13:09:03.130 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName></packageName>
