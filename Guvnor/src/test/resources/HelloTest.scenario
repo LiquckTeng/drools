@@ -23,7 +23,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>massage</fieldName>
-          <expected>Goodbye cruel world</expected>
+          <expected>hello</expected>
           <actualResult></actualResult>
           <successResult>false</successResult>
           <explanation>[m] field [massage] was [] expected [Goodbye cruel world].</explanation>
@@ -35,7 +35,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-26 12:08:03.420 UTC</lastRunResult>
+  <lastRunResult>2016-10-26 12:09:14.785 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName></packageName>
