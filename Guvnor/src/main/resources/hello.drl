@@ -1,8 +1,7 @@
-package org.sky.threshholdrulz;
 import com.hand.guvnor.Message;
 
 no-loop
-rule "approval decision by manager"
+rule "Hello World"
     when
      m : Message( status == 0 )
     then
@@ -12,7 +11,7 @@ rule "approval decision by manager"
      end
 
 
-rule "approval decision by general manager"
+rule "GoodBye"
     when
     m:Message( status == 1 )
     then
