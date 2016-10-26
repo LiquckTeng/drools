@@ -2,7 +2,7 @@ import com.hand.guvnor.Message;
 
 rule "Hello World"
     when
-     m : Message( status == Message.HELLO )
+     m : Message( status == 0 )
     then
 
      m.setMessage( "hello" );
@@ -13,7 +13,7 @@ rule "Hello World"
 
 rule "GoodBye"
     when
-     Message( status == Message.GOODBYE )
+     Message( status == 1 )
     then
     m.setMessage( "goodbye" );
 
