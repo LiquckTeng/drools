@@ -19,24 +19,9 @@
       <executionTimeResult>0</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
-    <expect-fact>
-      <fieldValues>
-        <expect-field>
-          <fieldName>status</fieldName>
-          <expected></expected>
-          <operator>==</operator>
-          <nature>0</nature>
-        </expect-field>
-      </fieldValues>
-      <name>m</name>
-      <anonymous>false</anonymous>
-    </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-26 12:57:27.862 UTC</lastRunResult>
-  <rules>
-    <string>GoodBye</string>
-    <string>Hello World</string>
-  </rules>
+  <lastRunResult>2016-10-26 13:08:23.327 UTC</lastRunResult>
+  <rules/>
   <inclusive>true</inclusive>
   <packageName></packageName>
   <imports>
