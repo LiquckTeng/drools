@@ -2,19 +2,19 @@ import com.hand.guvnor.Message;
 
 rule "Hello World"
     when
-     m : Message( status == Message.HELLO, myMessage : message )
+     m : Message( status == Message.HELLO )
     then
-     System.out.println( myMessage );
-     m.setMessage( "Goodbye cruel world" );
-     m.setStatus( Message.GOODBYE );
+
+     m.setMessage( "hello" );
+
      update( m );
      end
 
 
 rule "GoodBye"
     when
-     Message( status == Message.GOODBYE, myMessage : message )
+     Message( status == Message.GOODBYE )
     then
-    System.out.println( myMessage );
+    m.setMessage( "goodbye" );
 
     end
