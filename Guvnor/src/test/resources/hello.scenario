@@ -35,9 +35,12 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-26 12:55:17.68 UTC</lastRunResult>
-  <rules/>
-  <inclusive>false</inclusive>
+  <lastRunResult>2016-10-26 12:57:02.199 UTC</lastRunResult>
+  <rules>
+    <string>GoodBye</string>
+    <string>Hello World</string>
+  </rules>
+  <inclusive>true</inclusive>
   <packageName></packageName>
   <imports>
     <imports>
