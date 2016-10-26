@@ -4,17 +4,17 @@ rule "Hello World"
     when
      m : Message( status == 0 )
     then
-
-     m.setMessage( "hello" );
-
-     update( m );
+    modify( m ){
+         m.setMessage( "hello" );
+     };
      end
 
 
 rule "GoodBye"
     when
-     Message( status == 1 )
+    m:Message( status == 1 )
     then
+    modify(m){
     m.setMessage( "goodbye" );
-
+    }
     end
