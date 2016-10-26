@@ -1,4 +1,4 @@
-package rules;
+package hello;
 
 
 import com.hand.guvnor.Message;
