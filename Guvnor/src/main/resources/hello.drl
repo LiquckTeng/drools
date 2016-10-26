@@ -1,6 +1,5 @@
-package hello
+import com.hand.guvnor.Message;
 
-importcom.hand.guvnor.Message;
 rule "Hello World"
     when
      m : Message( status == Message.HELLO, myMessage : message )
