@@ -7,7 +7,7 @@
       <type>Message</type>
       <fieldData>
         <field-data>
-          <name>massage</name>
+          <name>status</name>
           <value>0</value>
           <nature>4</nature>
         </field-data>
@@ -26,7 +26,7 @@
           <expected>Goodbye cruel world</expected>
           <actualResult>0</actualResult>
           <successResult>false</successResult>
-          <explanation>[m] field [massage] was [0] expected [\&quot;Goodbye cruel world\&quot;].</explanation>
+          <explanation>[m] field [massage] was [0] expected [Goodbye cruel world].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -35,7 +35,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-26 12:04:12.789 UTC</lastRunResult>
+  <lastRunResult>2016-10-26 12:06:03.779 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName></packageName>
