@@ -22,20 +22,17 @@
     <expect-fact>
       <fieldValues>
         <expect-field>
-          <fieldName>massage</fieldName>
-          <expected>hello</expected>
-          <actualResult></actualResult>
-          <successResult>false</successResult>
-          <explanation>[m] field [massage] was [] expected [hello].</explanation>
+          <fieldName>status</fieldName>
+          <expected></expected>
           <operator>==</operator>
-          <nature>1</nature>
+          <nature>0</nature>
         </expect-field>
       </fieldValues>
       <name>m</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-26 12:57:02.199 UTC</lastRunResult>
+  <lastRunResult>2016-10-26 12:57:27.862 UTC</lastRunResult>
   <rules>
     <string>GoodBye</string>
     <string>Hello World</string>
