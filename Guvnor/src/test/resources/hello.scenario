@@ -8,12 +8,7 @@
       <fieldData>
         <field-data>
           <name>status</name>
-          <value>0</value>
-          <nature>4</nature>
-        </field-data>
-        <field-data>
-          <name>massage</name>
-          <value>0</value>
+          <value>1</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -28,7 +23,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>massage</fieldName>
-          <expected>0</expected>
+          <expected>goodbye</expected>
           <successResult>true</successResult>
           <explanation>[m] field [massage] was [0].</explanation>
           <operator>==</operator>
@@ -36,19 +31,19 @@
         </expect-field>
         <expect-field>
           <fieldName>status</fieldName>
-          <expected></expected>
+          <expected>1</expected>
           <actualResult>0</actualResult>
-          <successResult>false</successResult>
-          <explanation>[m] field [status] was [0] expected [].</explanation>
+          <successResult>true</successResult>
+          <explanation>[m] field [status] was [1].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>m</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-26 13:10:32.16 UTC</lastRunResult>
+  <lastRunResult>2016-10-26 13:11:06.104 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName></packageName>
