@@ -29,6 +29,17 @@
         <expect-field>
           <fieldName>massage</fieldName>
           <expected>0</expected>
+          <successResult>true</successResult>
+          <explanation>[m] field [massage] was [0].</explanation>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
+        <expect-field>
+          <fieldName>status</fieldName>
+          <expected></expected>
+          <actualResult>0</actualResult>
+          <successResult>false</successResult>
+          <explanation>[m] field [status] was [0] expected [].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -37,7 +48,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-26 13:09:03.130 UTC</lastRunResult>
+  <lastRunResult>2016-10-26 13:10:32.16 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName></packageName>
