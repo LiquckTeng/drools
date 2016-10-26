@@ -8,31 +8,16 @@
       <fieldData>
         <field-data>
           <name>status</name>
-          <value>0</value>
+          <value></value>
           <nature>4</nature>
         </field-data>
       </fieldData>
       <name>m</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace>
-      <executionTimeResult>1</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
-    </execution-trace>
-    <expect-fact>
-      <fieldValues>
-        <expect-field>
-          <fieldName>status</fieldName>
-          <expected></expected>
-          <operator>==</operator>
-          <nature>0</nature>
-        </expect-field>
-      </fieldValues>
-      <name>m</name>
-      <anonymous>false</anonymous>
-    </expect-fact>
+    <execution-trace/>
   </fixtures>
-  <lastRunResult>2016-10-26 12:46:12.173 UTC</lastRunResult>
+  <lastRunResult>2016-10-26 12:46:49.920 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName></packageName>
