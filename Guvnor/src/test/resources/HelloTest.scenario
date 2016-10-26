@@ -15,20 +15,27 @@
       <name>m</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>0</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>massage</fieldName>
-          <expected>\&quot;Goodbye cruel world\&quot;</expected>
+          <expected>Goodbye cruel world</expected>
+          <actualResult>0</actualResult>
+          <successResult>false</successResult>
+          <explanation>[m] field [massage] was [0] expected [\&quot;Goodbye cruel world\&quot;].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>m</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2016-10-26 12:04:12.789 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName></packageName>
