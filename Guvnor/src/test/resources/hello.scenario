@@ -15,24 +15,34 @@
       <name>m</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>0</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
+    </execution-trace>
     <expect-rule>
       <ruleName>Hello World</ruleName>
-      <expectedFire>true</expectedFire>
+      <expectedCount>1</expectedCount>
+      <explanation>Rule [Hello World] was not activated. Expected it to be activated.</explanation>
+      <successResult>false</successResult>
+      <actualResult>0</actualResult>
     </expect-rule>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>massage</fieldName>
           <expected>hello</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[m] field [massage] was [] expected [hello].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>m</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2016-10-26 13:20:05.452 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName></packageName>
