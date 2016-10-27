@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>status</name>
-          <value>0</value>
+          <value>Message.HELLO</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -19,13 +19,6 @@
       <executionTimeResult>0</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
-    <expect-rule>
-      <ruleName>Hello World</ruleName>
-      <expectedCount>1</expectedCount>
-      <explanation>Rule [Hello World] was not activated. Expected it to be activated.</explanation>
-      <successResult>false</successResult>
-      <actualResult>0</actualResult>
-    </expect-rule>
     <expect-fact>
       <fieldValues>
         <expect-field>
