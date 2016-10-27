@@ -5,28 +5,60 @@ package com.hand.hello;
  */
 
 @javax.persistence.Entity
-public class Message implements java.io.Serializable {
+public class Message implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(generator = "MESSAGE_ID_GENERATOR", strategy = javax.persistence.GenerationType.AUTO)
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(name = "MESSAGE_ID_GENERATOR", sequenceName = "MESSAGE_ID_SEQ")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(generator = "MESSAGE_ID_GENERATOR", strategy = javax.persistence.GenerationType.AUTO)
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(name = "MESSAGE_ID_GENERATOR", sequenceName = "MESSAGE_ID_SEQ")
+   private java.lang.Long id;
 
-    public Message() {
-    }
-    
-    public Message(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.String message;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.Integer status;
+
+   public Message()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.String getMessage()
+   {
+      return this.message;
+   }
+
+   public void setMessage(java.lang.String message)
+   {
+      this.message = message;
+   }
+
+   public java.lang.Integer getStatus()
+   {
+      return this.status;
+   }
+
+   public void setStatus(java.lang.Integer status)
+   {
+      this.status = status;
+   }
+
+   public Message(java.lang.Long id, java.lang.String message,
+         java.lang.Integer status)
+   {
+      this.id = id;
+      this.message = message;
+      this.status = status;
+   }
 
 }
