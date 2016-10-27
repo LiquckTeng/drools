@@ -1,9 +1,0 @@
-package com.hand.hello;
-
-import java.lang.Number;
-
-rule "hello"
-	dialect "mvel"
-	when
-	then
-end
