@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>status</name>
-          <value>Message.HELLO</value>
+          <value>0</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -16,7 +16,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>0</executionTimeResult>
+      <executionTimeResult>2</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -35,7 +35,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-26 13:20:05.452 UTC</lastRunResult>
+  <lastRunResult>2016-10-27 11:09:19.213 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName></packageName>
